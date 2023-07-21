@@ -1,6 +1,42 @@
 @charset "UTF-8";
 
+/*Layout index*/
 
-#container-fluid {
+.backgroundnegro {
     background-color: black;
+  }
+#logo {
+    background-color: black;
+    padding: 10px 20px 10px 1000px;
+}
+
+#carouselExampleAutoplaying {
+    background-color: black;
+}
+#carouselExampleAutoplaying .carousel-inner {
+    padding: 100px 50px 100px 50px;
+}
+#featuresindex1 {
+    background-color: black;
+    padding: 10px;
+    
+}
+#featuresred {
+    background-color: gray; 
+    padding: 50px;   
+}
+.icons {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    font-size: 70px;          
+}
+#info {
+    background-color: black;
+    padding: 100px;
+       
+}
+#footer {
+    background-color: gray;
+    padding: 100px 0 100px 0;
+
 }

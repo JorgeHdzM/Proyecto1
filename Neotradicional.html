@@ -8,9 +8,22 @@
     <title>Rikuto Tattoos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <style>
+      #features2 {
+        background-color: black;
+        height: 450px;
+        padding: 100px 100px 100px 100px;
+      }
+      .neo {
+        background-color: black;
+      }
+      .backgroundnegro {
+        background-color: black;
+      }
+    </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <nav class="navbar navbar-expand-lg backgroundnegro" data-bs-theme="dark"> <!--Color de fondo de navbar-->
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Rikutos Tattoos</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,9 +54,9 @@
                   <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                 </ul>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="Cursos.html">Cursos</a>
-              </li>
+              </li> -->
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -53,20 +66,64 @@
         </div>
       </nav>
     </div>
-    <!--Container-->
-    <div class="container">
-      <div class="row">
-        <h4 class="text-center"> Tatuajes Neotradicionales</h4>
+    <!--Logo-->
+    <div id="logo">
+      <img src="Img/Logo1.jpg" class="img-thumbal" alt="...">
+    </div>
+    <!--info-->
+    <div id="info"">
+      <div class="row text-center">
+        <div class="row justify-content-md-center">
+          <div class="col col-md-7">
+        <h4 class="text-center" style="color: white;"> Tatuajes Neotradicionales</h4>
         <br>
-        <p>El tatuaje neotradicional se inspira en el tradicional, aunque sus líneas y colores son más complejos, ya que combinan 
+        <p style="color: white;">El tatuaje neotradicional se inspira en el tradicional, aunque sus líneas y colores son más complejos, ya que combinan 
           trazos gruesos y finos. Este estilo se caracteriza por utilizar muy a menudo elementos ornamentales, flores y frutos, 
           animales y seres fantásticos. No obstante, no hay una temática fija, pero sí es cierto que este tipo de tatuajes suelen abundar. 
           Podemos ver desde zorros hasta geishas. </p>
           <br>
 
-      <img src="Img/Neotradicional2.PNG" class="img-thumbal" alt="...">
+      <img src="Img/Neotradicional2.PNG" class="img-thumbal" width="1000" alt="...">
       </div>
     </div>
+      </div>
+    </div>
+    <!--Redes Sociales-->
+    <div class="row text-center" id="featuresred">
+      <div class="row justify-content-md-center">
+        <div class="col col-md-3">
+          <div class="">
+            <i class="fa-brands fa-instagram icons" style="color: white;"></i>
+            <div class="card-body">
+              <h5 class="card-title" style="color: white;">Siguenos!!!</h5>
+              <p class="card-text" style="color: white;">No olvides seguirnos en instagram</p>
+              <a href="https://instagram.com/rikutostattoos?igshid=ZDc4ODBmNjlmNQ==" class="link-light">instagram</a>
+            </div>
+          </div>
+        </div>            
+        <div class="col col-md-3">
+          <div class="">
+          <i class="fa-brands fa-facebook icons" style="color: white;"></i>
+          <div class="card-body"
+          h5 class="card-title" style="color: white;">Siguenos!!!</h5>
+            <p class="card-text" style="color: white;">No olvides seguirnos en Facebook</p>
+            <a href="https://www.facebook.com/profile.php?id=100083628307808&mibextid=ZbWKwL" class="link-light">Facebook</a>                        
+        </div>
+          </div>
+        </div>
+        <div class="col col-md-3">
+          <div class="">
+          <i class="fa-brands fa-tiktok icons" style="color: white;"></i>
+          <div class="card-body"
+          h5 class="card-title" style="color: white;">Siguenos!!!</h5>
+            <p class="card-text" style="color: white;">No olvides seguirnos en Tiktok</p>
+            <a href="#" class="link-light">TikTok</a>
+            <br>
+          </div>
+          </div>
+        </div>
+      </div> 
+    </div>   
     <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
