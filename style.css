@@ -1,10 +1,20 @@
 @charset "UTF-8";
 
-/*Layout index*/
+/*Layout*/
 
 .backgroundnegro {
     background-color: black;
-  }
+}
+#featuresh {
+    background-color: black;
+    padding: 10px 0 10px 0;
+}
+#features2 {
+    background-color: black;
+    height: 450px;
+     padding: 100px 100px 100px 100px;
+}
+      
 #logo {
     background-color: black;
     padding: 10px 650px 10px 650px;
@@ -18,7 +28,7 @@
 }
 #featuresindex1 {
     background-color: black;
-    padding: 10px;
+    padding: 100px 250px 100px 250px;
     
 }
 #featuresred {
@@ -39,4 +49,12 @@
     background-color: gray;
     padding: 100px 0 100px 0;
 
+}
+#finaltext{
+    background-color: black;
+    padding: 100px;
+}
+#tribali {
+    background-color: black;
+    padding: 10px 0 100px 950px;
 }
