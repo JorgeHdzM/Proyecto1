@@ -46,7 +46,7 @@
 }
 #featuresred {
     background-color: gray; 
-    padding: 50px;   
+    padding: 100px;   
 }
 .icons {
     margin-bottom: 10px;
@@ -65,7 +65,7 @@
 }
 #finaltext{
     background-color: black;
-    padding: 100px;
+    padding: 100px 0 100px 0;
 }
 #tribali {
     background-color: black;
