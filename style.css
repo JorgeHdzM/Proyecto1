@@ -8,27 +8,40 @@
 #featuresh {
     background-color: black;
     padding: 10px 0 10px 0;
+    max-width: 4000px;
+    min-width: 100px;
 }
 #features2 {
     background-color: black;
     height: 450px;
-     padding: 100px 100px 100px 100px;
+    padding: 100px 100px 100px 100px;
+    max-width: 4000px;
+    min-width: 100px;
 }
       
 #logo {
+    text-align: center;
     background-color: black;
-    padding: 10px 650px 10px 650px;
+    /* padding: 10px 650px 10px 650px; */
+    max-width: 4000px;
+    min-width: 100px;
 }
 
 #carouselExampleAutoplaying {
     background-color: black;
+    max-width: 4000px;
+    min-width: 100px;
 }
 #carouselExampleAutoplaying .carousel-inner {
     padding: 100px 50px 100px 50px;
+    max-width: 4000px;
+    min-width: 100px;
 }
 #featuresindex1 {
     background-color: black;
     padding: 100px 250px 100px 250px;
+    max-width: 4000px;
+    min-width: 100px;
     
 }
 #featuresred {
